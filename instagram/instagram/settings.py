@@ -29,6 +29,7 @@ ALLOWED_HOSTS = []
 
 #Authentication User Model
 AUTH_USER_MODEL = 'users.User'
+AUTH_POST_MODEL = 'posts.Post'
 
 # Application definition
 
@@ -41,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'users',
-    'posts'
+    'posts',
 ]
 
 MIDDLEWARE = [
